@@ -83,3 +83,4 @@ function checkGuess() { //함수를 정의하는 코드
 
 guessSubmit.addEventListener('click' , checkGuess);
 
+
