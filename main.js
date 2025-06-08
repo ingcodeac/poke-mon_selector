@@ -1,12 +1,1 @@
-let admin, name;
-name = "John";
-admin = name;
-alert(admin);
-
-let planet = "Earth"
-->
-let ourPlanetName = "Earth"
-
-let name = "user"
-->
-let currentUserName = "John"
+const pokemon = Math.floor(Math.random()*1025)+1;
