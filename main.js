@@ -1,6 +1,14 @@
-const pokemon = Math.floor(Math.random()*1025)+1;
-pokemon = "number"
-document.getElementById("btn1").addEventListener('click',pokemon);
-function pokemon(){
-    alert("number");
+const randomPokemon =
+document.getElementById("btn1");
+randomPokemon.addEventListener("click", randomPokemonNumber);
+
+function randomPokemonNumber() {
+    const randomNumber = 
+    Math.floor(Math.random()*1025)+1;
+
+
+    const randomNumberElement =
+    document.getElementById("random-number");
+    randomNumberElement.innerText =
+    randomNumber;
 }
